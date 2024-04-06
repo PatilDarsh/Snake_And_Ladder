@@ -15,6 +15,8 @@ public class SnakeAndLadder {
 	private static final int SNAKE = 2;
 
 	public void show() {
+		while(playerPosition !=100) {
+			
 		System.out.println("Position of a player is: " +playerPosition);
 		dieNo = random.nextInt(6) + 1;
 		option = random.nextInt(3);
@@ -36,6 +38,7 @@ public class SnakeAndLadder {
 		System.out.println("The value of a option is = " +option);
 		System.out.println("The number on Die is = " +dieNo);
 		System.out.println("The new position of a player = " +playerPosition);
+		}
 	}
 
 	public static void main(String[] args) {
